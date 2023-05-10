@@ -1,0 +1,66 @@
+ERROR - 2023-04-12 07:57:19 --> mysqli_sql_exception: Table 'book' already exists in C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\app\Database\Migrations\2023-04-12-031607_Book.php(48): CodeIgniter\Database\Forge->createTable('book')
+#5 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(877): App\Database\Migrations\Book->up()
+#6 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-04-12 08:10:25 --> mysqli_sql_exception: Table 'book' already exists in C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\app\Database\Migrations\2023-04-12-031607_Book.php(48): CodeIgniter\Database\Forge->createTable('book')
+#5 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(877): App\Database\Migrations\Book->up()
+#6 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-04-12 08:11:23 --> mysqli_sql_exception: Table 'book' already exists in C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\app\Database\Migrations\2023-04-12-031607_Book.php(48): CodeIgniter\Database\Forge->createTable('book')
+#5 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(877): App\Database\Migrations\Book->up()
+#6 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\LEARNING PGT\CI 4 LEARNING\Pratice\my-crud\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-04-12 09:00:08 --> Undefined index: name
+in APPPATH\Views\pages\person\dataperson.php on line 19.
+ 1 APPPATH\Views\pages\person\dataperson.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\app\\Views\\pages\\person\\dataperson.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\app\\Views\\pages\\person\\dataperson.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/person/dataperson', [], true)
+ 5 APPPATH\Controllers\Person.php(30): view('pages/person/dataperson', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\public\\index.php')
+CRITICAL - 2023-04-12 09:01:42 --> Undefined index: name
+in APPPATH\Views\pages\person\dataperson.php on line 19.
+ 1 APPPATH\Views\pages\person\dataperson.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\app\\Views\\pages\\person\\dataperson.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\app\\Views\\pages\\person\\dataperson.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/person/dataperson', [], true)
+ 5 APPPATH\Controllers\Person.php(30): view('pages/person/dataperson', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\LEARNING PGT\\CI 4 LEARNING\\Pratice\\my-crud\\public\\index.php')
